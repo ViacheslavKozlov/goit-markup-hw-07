@@ -1,7 +1,6 @@
 .team {
     background-color: var(--button-background);
 }
-
 .team__title {
     padding-top: 94px;
     margin-bottom: 50px;
@@ -13,13 +12,11 @@
 
     color: var(--title-text-color);
 }
-
 .team-set {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .team-member__info {
     display: flex;
     flex-direction: column;

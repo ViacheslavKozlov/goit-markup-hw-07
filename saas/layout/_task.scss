@@ -9,21 +9,17 @@
 
     color: var(--title-text-color);
 }
-
 .tasks-set {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .tasks-set__item:not(:last-child) {
     margin-right: 30px;
 }
-
 .tasks-set__thumb {
     position: relative;
 }
-
 .tasks-set__text {
     display: block;
     position: absolute;
