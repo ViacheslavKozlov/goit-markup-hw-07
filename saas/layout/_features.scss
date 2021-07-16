@@ -25,7 +25,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: var(--title-text-color);
+    color: $titleColor;
 }
 
 .features-set__text {
@@ -33,7 +33,7 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
 
-    color: var(--common-text);
+    color: $commonText;
 }
 
 .features-set__icon {
@@ -41,5 +41,5 @@
     margin-bottom: 30px;
     padding: 25px 100px;
 
-    background-color: var(--button-background);
+    background-color: $btnBkg;
 }

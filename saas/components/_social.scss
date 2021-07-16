@@ -22,24 +22,24 @@
 
     &:hover,
     &:focus {
-        background-color: var(--active-color);
+        background-color: $activeColor;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     &:hover svg,
     &:focus svg {
-        fill: var(--main-text-color);
+        fill: $activeColor;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     &_white-fill:hover svg,
     &_white-fill:focus svg {
-        fill: var(--main-text-color);
+        fill: $txtColor;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
 .social-links__icon {
-    fill: var(--main-text-color);
+    fill: $txtColor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

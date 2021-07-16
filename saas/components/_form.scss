@@ -9,8 +9,8 @@
         margin-right: 10px;
     }
     &__input {
-        max-width: 358px;
-        max-height: 50px;
+        width: 358px;
+        height: 50px;
         padding: 15px;
 
         font-size: 16px;
@@ -21,7 +21,7 @@
         border-radius: 4px;
         border: 1px solid rgba(255, 255, 255, 0.3);
 
-        background-color: var(--footer-background);
+        background-color: $ftrBkg;
         color: rgba(255, 255, 255, 0.6);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     }
@@ -59,7 +59,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(--title-text-color);
+    color: $titleColor;
 }
 
 .modal-form__fields {
@@ -78,7 +78,7 @@
     line-height: 14px;
     letter-spacing: 0.01em;
 
-    color: var(--common-text);
+    color: $commonText;
 }
 
 .modal-form__input {
@@ -119,8 +119,8 @@
     &:hover+svg>use,
     &:focus,
     &:hover {
-        fill: var(--active-color);
-        border-color: var(--active-color);
+        fill: $activeColor;
+        border-color: $activeColor;
         transition-property: border-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -140,7 +140,7 @@
 
 .modal-form-fields .form-field:hover svg,
 .modal-form-fields .form-field:focus svg {
-    fill: var(--active-color);
+    fill: $activeColor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -159,7 +159,7 @@
     padding: 11;
 
     transform: translateY(-50%);
-    fill: var(--title-text-color);
+    fill: $titleColor;
 }
 
 .modal-form__checkbox {
@@ -179,7 +179,7 @@
     height: 15px;
     margin-right: 7px;
 
-    border: 2px solid var(--title-text-color);
+    border: 2px solid $titleColor;
     border-radius: 2px;
 
     transition-property: border-color, background-color;
@@ -192,8 +192,8 @@
     background-size: contain;
     background-origin: border-box;
     background-position: center;
-    border-color: var(--active-color);
-    background-color: var(--active-color);
+    border-color: $activeColor;
+    background-color: $activeColor;
 }
 
 .modal-form__check-text {
@@ -203,5 +203,5 @@
 }
 
 .modal-form__agreement {
-    color: var(--active-color);
+    color: $activeColor;
 }

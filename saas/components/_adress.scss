@@ -3,7 +3,7 @@
     margin-left: auto;
     &__icon {
         margin-right: 10px;
-        fill: var(--common-text);
+        fill: $commonText;
         cursor: pointer;
     }
         & &__link-adress {
@@ -13,7 +13,7 @@
 
             &:hover svg,
             &:focus svg {
-                fill: var(--active-color);
+                fill: $activeColor;
             }
     }
 
@@ -52,7 +52,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
 
-    color: var(--main-text-color);
+    color: $txtColor;
 
     &__link {
         font-style: normal;
